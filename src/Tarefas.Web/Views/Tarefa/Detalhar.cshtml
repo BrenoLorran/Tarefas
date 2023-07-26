@@ -1,0 +1,35 @@
+@model Tarefas.Web.Models.TarefaViewModel
+
+Visualizando a tarefa @Model.Id
+
+<table>
+    <tr>
+        <td>            
+            Descrição
+        </td>
+        <td>
+            @Model.Descricao 
+            
+        </td>
+    
+    </tr>
+
+    <tr>
+        <td>
+            Titulo
+        </td>
+        <td>
+           @Model.Titulo
+        </td>
+    
+    </tr>
+     <tr>
+        <td>
+            Status
+        </td>
+        <td>
+           @Model.Status
+        </td>
+    
+    </tr>
+</table>
