@@ -1,8 +1,11 @@
 @model Tarefas.Web.Models.TarefaViewModel
 
 <form asp-action="Criar">
-    <input asp-form "Titulo" type="text"></input>
-    <input asp-form "Descrição" type="text"></input>
-    <input asp-form "Status" type="text"></input>
-    <input type="submit" />
+    <label asp-for="Titulo">Titulo</label>
+    <input asp-for = "Titulo" type="text"></input>
+    <label asp-for="Descricao">Descricao</label>
+    <input asp-for = "Descricao" type="text"></input>
+    <label asp-for="Status">Status</label>
+    <input asp-for = "Status" type="text"></input>
+    <input type="submit" value="Enviar" />
 </form>
