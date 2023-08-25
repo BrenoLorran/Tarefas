@@ -1,30 +1,49 @@
 @using Tarefas.Web.Models
 @model List<TarefaViewModel>
 
-<table width="10%" border="1"  cellspacing="10" cellpadding="4">
-    <tr>
-        
-        <p><td>Codigo</td></p>
-        <td>Titulo</td> 
-        <td>Status</td> 
-        <td>Acoes</td>      
-    </tr>
+<table class="table table-bordered">
+     <thead>
+      <tr>        
+        <th scope="col">Codigo</th>
+        <th scope="col">Titulo</th> 
+        <th scope="col">Descrição</th>
+        <th scope="col">Status</th>
+        <th scope="col">Acoes</th>  
+     </tr>
+    </thead>
 
    @foreach (var item in Model)
    {
-
+    <thead>
         <tr>
-            <td>@item.Id</td>
-            <td>@item.Titulo</td>
-            <td>@item.Status</td>
-            <td>
+            <th scope="col">@item.Id</th>
+            <th scope="col">@item.Titulo</th>
+            <th scope="col">@item.Descricao</th>
+            <th scope="col">@item.Status</th>
+
+            <th scope="col">
                 <a class="nav-link text-dark" 
                 asp-area="" 
                 asp-controller="Tarefa" 
                 asp-action="Detalhar"
                 asp-route-id="@item.Id">Detalhar</a>
-            </td>
-        </tr>    
+            </th>
+            <th scope="col">
+                <a class="nav-link text-dark" 
+                asp-area="" 
+                asp-controller="Tarefa" 
+                asp-action="Update"
+                asp-route-id="@item.Id">Update</a>
+            </th>
+            <th scope="col">
+                <a class="nav-link text-dark" 
+                asp-area="" 
+                asp-controller="Tarefa" 
+                asp-action="Deletar"
+                asp-route-id="@item.Id">Deletar</a>
+            </th>
+        </tr>  
+    </thead> 
    }
 
 </table>

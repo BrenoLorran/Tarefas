@@ -1,11 +1,18 @@
 @model Tarefas.Web.Models.TarefaViewModel
 
 <form asp-action="Criar">
-    <label asp-for="Titulo">Titulo</label>
-    <input asp-for = "Titulo" type="text"></input>
-    <label asp-for="Descricao">Descricao</label>
-    <input asp-for = "Descricao" type="text"></input>
-    <label asp-for="Status">Status</label>
-    <input asp-for = "Status" type="text"></input>
-    <input type="submit" value="Enviar" />
+    <div class="form-group">
+        <label asp-for="Titulo">@Html.DisplayNameFor(model => model.Titulo)</label>
+        <input asp-for = "Titulo" class="form-control" type="text"></input>
+    </div>
+    <div class="form-group">
+         <label asp-for="Descricao">@Html.DisplayNameFor(model => model.Descricao)</label>
+         <input asp-for = "Descricao" class="form-control" type="text"></input>
+    </div>
+    <div class="form-group">
+        <label asp-for="Status">@Html.DisplayNameFor(model => model.Status)</label>
+        <input asp-for = "Status" class="form-control" type="text"></input>
+    </div>
+    <input type="submit" class="btn btn-primary" value="Enviar" />
 </form>
+

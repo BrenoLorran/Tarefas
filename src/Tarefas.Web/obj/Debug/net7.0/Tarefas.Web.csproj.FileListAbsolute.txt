@@ -29,3 +29,14 @@ C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\obj\Debug\net7.0\refint\Tarefas.We
 C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\obj\Debug\net7.0\Tarefas.Web.pdb
 C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\obj\Debug\net7.0\Tarefas.Web.genruntimeconfig.cache
 C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\obj\Debug\net7.0\ref\Tarefas.Web.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\Dapper.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\System.Data.SQLite.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\Tarefas.DAO.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\Tarefas.DTO.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\Tarefas.DTO.pdb
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\Tarefas.DAO.pdb
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\obj\Debug\net7.0\Tarefas.Web.csproj.CopyComplete
