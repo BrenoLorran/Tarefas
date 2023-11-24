@@ -1,35 +1,22 @@
 @model Tarefas.Web.Models.TarefaViewModel
 
-Visualizando a tarefa 
+ <h1 class="text-success text-center">
+        Visualizando Detalhes 
+ </h1> 
 
-<table>
+<table class="table">
+  <thead>
     <tr>
-        <td>            
-            Descrição
-        </td>
-        <td>
-            @Model.Descricao 
-            
-        </td>
-    
+      <th scope="col">Descrição</th>
+      <th scope="col">Titulo</th>
+      <th scope="col">Status</th>    
     </tr>
-
-    <tr>
-        <td>
-            Titulo
-        </td>
-        <td>
-           @Model.Titulo
-        </td>
-    
+  </thead>
+  <tbody>
+    <tr>     
+      <td>@Model.Descricao </td>
+      <td>@Model.Titulo</td>
+      <td>@Model.Status</td>
     </tr>
-     <tr>
-        <td>
-            Status
-        </td>
-        <td>
-           @Model.Status
-        </td>
-    
-    </tr>
+   </tbody>
 </table>

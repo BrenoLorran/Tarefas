@@ -1,14 +1,13 @@
 @using Tarefas.Web.Models
 @model List<TarefaViewModel>
 
-<table class="table table-bordered">
-     <thead>
+<table class="table"> 
+     <thead class ="thead-light">
       <tr>        
         <th scope="col">Codigo</th>
         <th scope="col">Titulo</th> 
         <th scope="col">Descrição</th>
-        <th scope="col">Status</th>
-        <th scope="col">Acoes</th>  
+        <th scope="col">Status</th>        
      </tr>
     </thead>
 
@@ -22,21 +21,21 @@
             <th scope="col">@item.Status</th>
 
             <th scope="col">
-                <a class="nav-link text-dark" 
+                <a class="btn btn-info btn-sm" 
                 asp-area="" 
                 asp-controller="Tarefa" 
                 asp-action="Detalhar"
                 asp-route-id="@item.Id">Detalhar</a>
             </th>
             <th scope="col">
-                <a class="nav-link text-dark" 
+                <a class="btn btn-secondary btn-sm" 
                 asp-area="" 
                 asp-controller="Tarefa" 
                 asp-action="Update"
                 asp-route-id="@item.Id">Update</a>
             </th>
             <th scope="col">
-                <a class="nav-link text-dark" 
+                <a class="btn btn-danger btn-sm" 
                 asp-area="" 
                 asp-controller="Tarefa" 
                 asp-action="Deletar"
@@ -47,3 +46,4 @@
    }
 
 </table>
+

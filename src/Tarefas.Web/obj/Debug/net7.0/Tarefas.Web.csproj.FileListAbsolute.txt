@@ -40,3 +40,10 @@ C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\Tarefas.DTO.dll
 C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\Tarefas.DTO.pdb
 C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\Tarefas.DAO.pdb
 C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\obj\Debug\net7.0\Tarefas.Web.csproj.CopyComplete
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\breno.lorran\Tarefas\src\Tarefas.Web\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll

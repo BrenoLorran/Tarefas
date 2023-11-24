@@ -1,0 +1,35 @@
+@model Tarefas.Web.Models.UsuarioViewModel
+
+<form asp-action="Criar">  
+
+    <h1 class="text-success text-center">
+        Cadastro de Usuario
+    </h1>  
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Nome"></label>               
+        <input asp-for="Nome" class="form-control" type="text" placeholder="Nome Usuario"> </input>                
+        <span asp-validation-for="Nome" class="text-danger"></span>
+     </div>
+
+     <div class="form-group">
+        <label asp-for="Email"></label>                
+        <input asp-for="Email" class="form-control" type="text" placeholder="Email do usuario"></input>           
+        <span asp-validation-for="Email" class="text-danger"></span>
+     </div>
+
+     <div class="form-group">
+         <label asp-for="Senha"></label>           
+         <input asp-for="Senha" class="form-control" type="text" placeholder="Senha do usuario"></input>           
+         <span asp-validation-for="Senha" class="text-danger"></span>
+    </div>
+     <div class="form-group">
+         <label asp-for="Ativo"></label>           
+         <input asp-for="Ativo" class="form-control" type="text" placeholder="Ativo"></input>           
+         <span asp-validation-for="Ativo" class="text-danger"></span>
+    </div>
+
+    <input type="submit" class="btn bg-success" value="Enviar" />
+
+</form>

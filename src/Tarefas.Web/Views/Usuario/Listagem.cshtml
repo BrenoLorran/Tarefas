@@ -1,0 +1,50 @@
+@using Tarefas.Web.Models
+@model List<UsuarioViewModel>
+
+<table class="table"> 
+     <thead class ="thead-light">
+      <tr>        
+        <th scope="col">Email</th>
+        <th scope="col">Nome</th> 
+        <th scope="col">Senha</th>
+        <th scope="col">Ativo</th>        
+     </tr>
+    </thead>
+
+   @foreach (var item in Model)
+   {
+    <thead>
+        <tr>
+
+            <th scope="col">@item.Ativo</th>
+            <th scope="col">@item.Email</th>
+            <th scope="col">@item.Nome</th>
+            <th scope="col">@item.Senha</th>
+            
+
+            <th scope="col">
+                <a class="btn btn-info btn-sm" 
+                asp-area="" 
+                asp-controller="Tarefa" 
+                asp-action="Detalhar"
+                asp-route-id="@item.Id">Detalhar</a>
+            </th>
+            <th scope="col">
+                <a class="btn btn-secondary btn-sm" 
+                asp-area="" 
+                asp-controller="Tarefa" 
+                asp-action="Update"
+                asp-route-id="@item.Id">Update</a>
+            </th>
+            <th scope="col">
+                <a class="btn btn-danger btn-sm" 
+                asp-area="" 
+                asp-controller="Tarefa" 
+                asp-action="Deletar"
+                asp-route-id="@item.Id">Deletar</a>
+            </th>
+        </tr>  
+    </thead> 
+   }
+
+</table>
